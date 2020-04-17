@@ -1,4 +1,207 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 5%;
+}
+nav {
+  margin-bottom: 5%;
+}
+nav #bold {
+  font-weight: 700;
+}
+hr {
+  margin-top: 2%;
+  width: 84vw;
+  margin-left: -3vw;
+  height: 1px;
+}
+a {
+  font-family: 'Raleway', sans-serif;
+  color: #4a4a4a;
+  text-decoration: none;
+  font-size: 200%;
+  transition: 200ms;
+}
+a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}
+h1 {
+  font-weight: 700;
+  color: white;
+  font-size: 2.5rem;
+  text-justify: center;
+}
+header {
+  font-family: sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  width: 18%;
+  height: 8%;
+  border-radius: 7px;
+  font-size: 0.75rem;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35rem;
+  flex-direction: column;
+  background-image: url("https://github.com/LambdaSchool/50-Influential-Artists/blob/master/assets/home.png?raw=true.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+section {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.artist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding: 1%;
+}
+.artist a {
+  text-align: center;
+  font-size: 2.25vw;
+  font-weight: 500;
+}
+@media (max-width: 700px) {
+  .artist a {
+    font-size: 3.25vw;
+  }
+}
+.artist .bio {
+  height: 20%;
+}
+img {
+  border-radius: 7px;
+  width: 90%;
+  transition: 200ms;
+}
+img:hover {
+  opacity: 80%;
+}
+p {
+  font-family: sans-serif;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  font-size: 0.75rem;
+}
